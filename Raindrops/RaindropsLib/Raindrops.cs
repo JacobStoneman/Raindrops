@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RaindropsLib
+﻿namespace RaindropsLib
 {
 	public class Raindrops
 	{
