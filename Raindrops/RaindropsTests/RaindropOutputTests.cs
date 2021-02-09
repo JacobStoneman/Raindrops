@@ -63,6 +63,12 @@ namespace RaindropsTests
 			Assert.That(Raindrops.GetDrops(input), Is.EqualTo("PlingPlangPlong"));
 		}
 
+		[Test]
+		public void ZeroReturnsPlingPlangPlong()
+		{
+			Assert.That(Raindrops.GetDrops(0), Is.EqualTo("PlingPlangPlong"));
+		}
+
 		[TestCase(34)]
 		[TestCase(-34)]
 		[TestCase(68)]
