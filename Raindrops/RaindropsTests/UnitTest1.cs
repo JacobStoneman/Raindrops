@@ -1,18 +1,15 @@
 using NUnit.Framework;
+using RaindropsLib;
 
 namespace RaindropsTests
 {
-	public class Tests
+	public class RaindropOutputTests
 	{
-		[SetUp]
-		public void Setup()
-		{
-		}
+		Raindrops Raindrops = new Raindrops(); 
 
 		[Test]
-		public void Test1()
+		public void RaindropsReturnsCorrectOutput(int input, string expected)
 		{
-			Assert.Pass();
 		}
 	}
 }
