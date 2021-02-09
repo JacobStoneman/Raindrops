@@ -16,4 +16,16 @@ A method which takes an integer value as its parameter and converts it to a stri
 
 ## Tests
 
-The method has been fully unit tested ensuring each combination of outputs is generated correctly as well as tests for edge cases such as negative numbers.
+The method has been fully unit tested ensuring each combination of outputs is generated correctly as well as tests for edge cases such as negative numbers and factors of zero.
+
+Tests included:
+
+- FactorOf3ReturnsPling
+- FactorOf5ReturnsPlang
+- FactorOf7ReturnsPlong
+- FactorOf3And5ReturnsPlingPlang
+- FactorOf3And7ReturnsPlingPlong
+- FactorOf5And7ReturnsPlangPlong
+- FactorOf3And5And7ReturnsPlingPlangPlong
+- ZeroReturnsPlingPlangPlong
+- NoFactorOf3Or5Or7ReturnsNumberAsString
